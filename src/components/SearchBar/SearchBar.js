@@ -52,11 +52,6 @@ class SearchBar extends React.Component {
      this.props.searchYelp(this.state.term, this.state.location, this.state.sortBy);
     }
 
-    // resetForm = () => {
-    //   this.setState(this.initialState);
-    //   console.log('initial state ' + JSON.stringify(initialState))
-    // }
-
 
   renderSortByOptions() {
     return Object.keys(this.sortByOptions).map(sortByOption => {
@@ -86,7 +81,7 @@ class SearchBar extends React.Component {
         </div>
         <div className="SearchBar-submit">
           <a onClick={this.handleSearch}>Show Me</a>
-          <a onClick={this.resetForm}>Clear</a>
+          
         </div>
       </div>
     )
