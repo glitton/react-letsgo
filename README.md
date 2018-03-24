@@ -1,1 +1,1 @@
-This is a Yelp application build on React that allows users to search for any type of business.  Just enter a search term in the Search business field like 'Thai', 'nail salon', 'garage repair' or any other business term.  In the Where field, enter a city, state, or zip code
+This is a Yelp application build on React that allows users to search for any type of business.  Just enter a search term in the Search business field like 'Thai', 'nail salon', 'garage repair' or any other business term.  In the Where field, enter a city, state, or zip code.
